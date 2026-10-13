@@ -1,0 +1,60 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "greeting",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Hi! What can you help me with today?"}]
+      }
+    },
+    {
+      "eval_case_id": "full_menu",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Can I see your full menu?"}]
+      }
+    },
+    {
+      "eval_case_id": "menu_item_lookup",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Tell me about the matcha latte."}]
+      }
+    },
+    {
+      "eval_case_id": "drink_suggestion_cold",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "I'm looking for something cold and refreshing."}]
+      }
+    },
+    {
+      "eval_case_id": "drink_suggestion_strong",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Suggest me a strong coffee."}]
+      }
+    },
+    {
+      "eval_case_id": "inventory_check",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Do you have oat milk in stock?"}]
+      }
+    },
+    {
+      "eval_case_id": "out_of_stock",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Can I get a blueberry muffin?"}]
+      }
+    },
+    {
+      "eval_case_id": "full_inventory",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Show me your current inventory status."}]
+      }
+    }
+  ]
+}
