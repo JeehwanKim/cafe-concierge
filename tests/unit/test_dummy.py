@@ -64,9 +64,11 @@ class TestInventoryData:
 
 
 class TestGetFullMenu:
-    def test_returns_string(self):
+    def test_returns_menu_output(self):
+        from app.tools_schemas import FullMenuOutput
         result = get_full_menu()
-        assert isinstance(result, str)
+        assert isinstance(result, (str, FullMenuOutput))
+        assert len(str(result)) > 0
 
     def test_contains_menu_items(self):
         result = get_full_menu()
